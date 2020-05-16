@@ -16,6 +16,7 @@ fun getFortuneCookie() : String
     birthday = readLine()?.toIntOrNull() ?: 1 //put 1 in birthday if the value is not correct
     birthday %= 7
     return listOfFortune[birthday]
+    
 
 
 }
